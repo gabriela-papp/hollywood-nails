@@ -1,0 +1,279 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    color: black;
+    text-align: center;
+
+}
+.jumbotron{
+    height: 500px; 
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/slider2.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.nav{
+    background-color: #3f4654;
+    height:50px;
+}
+.nav ul{
+    margin: 0;
+    padding:0;
+
+
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    width: 15%;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.nav ul li a{
+    color:white;
+}
+
+.nav ul li a:hover{
+    color: #aaabc5;
+}
+.jumbotron-heading {
+    font-family: 'Tangerine';
+    font-size: 8em;
+    color: white;
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+}
+.wrap{
+    height: 100%;
+    position: relative;
+}
+
+.arrow{
+    cursor: pointer;
+    position:absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height:0;
+    border-style: solid;
+}
+.arrow-left{
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent  transparent;
+    left:0;
+    margin-left: 30px;
+}
+.arrow-right{
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent  transparent  #fff ;
+    right:0;
+    margin-left: 30px;
+}
+.display-3 {
+    color: #aaabc5;
+    font-size: 39px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.jumbotron2 {
+    padding-top:30px;
+    background-color: #e8ecef;
+}
+
+.jumbotron2 .main-no{
+    font-size: 41px;    
+}
+.social ul{
+    padding: 0;
+}
+.social ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social ul li i{
+    color:#aaabc5;
+    margin: 10px;
+}
+.aboutus{
+    background-color: white;
+}
+.aboutus img{
+    float: left;
+    margin-right:30px;
+}
+.aboutus-inner{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+.services-container{
+    height: 550px;
+    width: 80%;
+    margin: 0 auto;
+}
+.service-image{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+    background-image: url(../images/gallery-sample2.jpg);
+    background-size: cover;
+}
+.service-bg{
+    background-color: #aaabc5;
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding: 20px;
+}
+.container1{
+    width: 80%;
+    margin: 0 auto;
+    height: 980px;;
+}
+.container3 {
+
+    color: #3f4654;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(12, 3, 25, 0.8);
+    width: 60%;
+    float: left;
+}
+.container4{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(12, 3, 25, 0.8);
+    width: 30%;
+    height: 230px;
+    float: right;
+    margin-bottom: 40px;
+}
+.container5{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(12, 3, 25, 0.8);
+    width: 30%;
+    height: 600px;
+    float: right;
+}
+
+table .price-heading{
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+
+tr td{
+    text-align: left;
+}
+
+.lead {
+    text-align: center;
+}
+.container6{
+    margin: 0;
+    padding:0;
+}
+iframe{
+    width:100%;
+}
+.footer {
+    width: 100%;
+    height: 370px;
+    background-color: #3f4654;
+
+    color: #aaabc5;
+}
+.footer i{
+    color: #aaabc5;
+    padding-top: 5px;
+
+}
+.rights{
+    margin: auto;
+    width: 100%;
+    padding-top: 100px;
+
+}
+.section1{
+    width: 50%;
+    float: left;
+}
+.section2{
+    width: 50%;
+    float: right;
+}
+.gallery img{
+    padding: 10px;    
+    width: 230px;
+    height: 170px;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 750px) {
+    .service-image{
+        width: 100%;
+        height: 550px;
+    }
+    .service-bg{
+        width: 100%;
+        height: 300px;
+    }
+    .services-container{
+        height: 850px;
+    }
+    .container1{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .rights p{
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width: 900px) {
+    .services-container{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 420px) {
+    .jumbotron-heading{
+        font-size: 7em !important;
+    }
+    .about-us-img{
+        width: 100%;
+    }
+    .container3{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+     .container4{
+        width: 100%;
+    }
+     .container5{
+        width: 100%;
+    }
+    .footer{
+        height: 380px;
+    }
+    .footer .section1{
+        width: 100%;
+    }
+     .footer .section2{
+        width: 100%;
+    }
+}
+
