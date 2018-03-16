@@ -160,6 +160,9 @@ body{
     float: right;
     margin-bottom: 40px;
 }
+.container4 p{
+    font-size: 1.3vw;
+}
 .container5{
     background-color: white;
     padding: 30px;
@@ -168,7 +171,9 @@ body{
     height: 600px;
     float: right;
 }
-
+.container5 p{
+    font-size: 1.3vw;
+}
 table .price-heading{
     width: 100%;
     font-size: 2em;
@@ -262,6 +267,12 @@ iframe{
     }
      .container4{
         width: 100%;
+    }
+       .container4 p{
+    font-size: 1.1em;
+    }
+       .container5 p{
+    font-size: 1.1em;
     }
      .container5{
         width: 100%;
