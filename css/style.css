@@ -255,8 +255,16 @@ iframe{
 
 }
 @media screen and (max-width: 420px) {
+    .nav{
+        height:0;
+    }
+    .nav ul li{
+      font-size: 10px !important;
+
+    }
+   
     .jumbotron-heading{
-        font-size: 7em !important;
+        font-size: 4em !important;
     }
     .about-us-img{
         width: 100%;
@@ -285,6 +293,9 @@ iframe{
     }
      .footer .section2{
         width: 100%;
+    }
+      .rights{
+        padding-top: 0;
     }
 }
 
